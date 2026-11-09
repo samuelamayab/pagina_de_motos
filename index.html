@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Un recorrido por la historia, los tipos y la tecnología de las motocicletas.">
+<title>El mundo de las motocicletas</title>
+<style>
+:root{--bg:#080d16;--panel:#111b2b;--panel2:#17243a;--text:#eef4ff;--muted:#aab8cc;--blue:#29b6f6;--cyan:#72e2ff}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+a{color:var(--cyan)}
+.hero{min-height:78vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:70px 22px;position:relative;overflow:hidden;background:linear-gradient(110deg,rgba(4,9,18,.94),rgba(4,9,18,.55)),url('portada.png') center 42%/cover no-repeat}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:5px;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+.hero-content{max-width:900px;position:relative;z-index:1}
+.eyebrow{color:var(--cyan);font-weight:bold;letter-spacing:4px;text-transform:uppercase;font-size:.8rem}
+h1{font-size:clamp(2.4rem,7vw,5.2rem);line-height:1.05;margin:15px 0;text-transform:uppercase}
+.hero p{font-size:1.15rem;color:#d2deef}
+.hero .student{font-size:.95rem;color:var(--muted)}
+.btn{display:inline-block;margin-top:18px;padding:12px 22px;border-radius:30px;background:var(--blue);color:#06111e;text-decoration:none;font-weight:bold}
+nav{position:sticky;top:0;z-index:5;background:rgba(8,13,22,.96);border-bottom:1px solid #25354c;padding:12px 10px;display:flex;justify-content:center;flex-wrap:wrap;gap:8px}
+nav a{color:#eaf4ff;text-decoration:none;padding:8px 12px;border-radius:20px;font-size:.9rem}
+nav a:hover{background:#17344d;color:var(--cyan)}
+.container{width:min(1100px,92%);margin:0 auto;padding:34px 0 60px}
+.section{background:linear-gradient(145deg,var(--panel),#0e1725);border:1px solid #24364d;border-radius:18px;padding:clamp(20px,4vw,34px);margin:22px 0;box-shadow:0 12px 35px #0005}
+.section h2{margin:0 0 14px;color:var(--cyan);font-size:1.55rem}
+.section p,.section li{color:#d2dceb}
+.section ul{padding-left:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:20px}
+.photo-card{background:var(--panel2);border:1px solid #2a405b;border-radius:14px;overflow:hidden}
+.photo-card img{display:block;width:100%;height:210px;object-fit:cover;background:#22334a}
+.photo-card div{padding:14px}
+.photo-card h3{margin:0;color:#fff}
+.photo-card p{margin:5px 0 0;color:var(--muted);font-size:.95rem}
+table{width:100%;border-collapse:collapse;overflow:hidden;border-radius:10px;background:#0c1522}
+th,td{padding:13px;text-align:left;border-bottom:1px solid #2a3b52}
+th{background:#163a59;color:var(--cyan)}
+tr:last-child td{border-bottom:0}
+.link-list a{display:inline-block;margin:5px 12px 5px 0}
+.note{padding:14px 16px;border-left:4px solid var(--blue);background:#0a1d2c;border-radius:8px;color:#cfe9f7}
+footer{text-align:center;padding:30px 15px;background:#050910;border-top:1px solid #23364b;color:var(--muted)}
+@media(max-width:600px){nav{position:relative}.hero{min-height:65vh}.section{padding:20px}table{font-size:.88rem}th,td{padding:9px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-content">
+    <div class="eyebrow">Pasión sobre dos ruedas</div>
+    <h1>El mundo de las motocicletas</h1>
+    <p>Velocidad, tecnología, aventura y pasión sobre dos ruedas.</p>
+    <p class="student">Proyecto realizado por: Samuel Amaya</p>
+    <a class="btn" href="#presentacion">Explorar la página</a>
+  </div>
+</header>
+<nav aria-label="Navegación principal">
+<a href="#presentacion">Presentación</a><a href="#definicion">Definición</a><a href="#historia">Historia</a><a href="#tipos">Tipos</a><a href="#galeria">Galería</a><a href="#audio">Audio</a><a href="#conclusion">Conclusión</a>
+</nav>
+<main class="container">
+<section class="section" id="presentacion"><h2>01 · Presentación</h2>
+<p>En esta página conoceremos el mundo de las motocicletas, su historia, sus características y los diferentes modelos que existen. También aprenderemos sobre su funcionamiento y su importancia en la vida cotidiana.</p></section>
+<section class="section" id="definicion"><h2>02 · Definición</h2>
+<p>Una motocicleta es un vehículo de dos ruedas que funciona mediante un motor. Sirve para transportar personas y permite desplazarse por diferentes lugares de manera práctica.</p></section>
+<section class="section" id="historia"><h2>03 · Historia de las motocicletas</h2>
+<p>Las primeras motocicletas aparecieron en el siglo XIX. Una de las primeras fue construida por Gottlieb Daimler y Wilhelm Maybach en 1885.</p>
+<p>Con el paso de los años, las motos fueron evolucionando. Los motores mejoraron, aparecieron nuevos diseños y se crearon modelos para competencias, viajes y uso diario.</p></section>
+<section class="section"><h2>04 · Características</h2>
+<ul><li>Tienen dos ruedas.</li><li>Funcionan con un motor.</li><li>Utilizan gasolina o energía eléctrica.</li><li>Tienen manubrio para dirigirlas.</li><li>Poseen frenos para controlar la velocidad.</li><li>Necesitan mantenimiento periódico.</li></ul></section>
+<section class="section" id="tipos"><h2>05 · Tipos de motocicletas</h2>
+<ul><li><b>Deportivas:</b> diseñadas para ofrecer un alto rendimiento.</li><li><b>Naked:</b> tienen un diseño sencillo y un estilo moderno.</li><li><b>Touring:</b> están diseñadas para realizar viajes largos.</li><li><b>Doble propósito:</b> pueden utilizarse en diferentes terrenos.</li><li><b>Scooter:</b> son prácticas para desplazamientos urbanos.</li></ul></section>
+<section class="section"><h2>06 · ¿Cómo funciona una motocicleta?</h2>
+<p>El motor produce la energía necesaria para mover la moto. Esta energía llega a la rueda trasera mediante un sistema de transmisión. El conductor utiliza el acelerador, los frenos y el manubrio para controlar el vehículo.</p></section>
+<section class="section"><h2>07 · Ejemplos cotidianos</h2>
+<ul><li>Ir al colegio o al trabajo.</li><li>Realizar viajes por carretera.</li><li>Transportar pequeños objetos.</li><li>Realizar actividades deportivas.</li><li>Trabajar en servicios de mensajería.</li></ul></section>
+<section class="section" id="galeria"><h2>08 · Galería de motocicletas</h2>
+<p>Algunos estilos de motocicletas. Las fotografías de esta galería se cargan desde internet.</p>
+<div class="grid">
+<article class="photo-card"><img loading="lazy" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=900&q=85" alt="Motocicleta en carretera"><div><h3>Deportiva</h3><p>Diseñada para rendimiento y conducción ágil.</p></div></article>
+<article class="photo-card"><img loading="lazy" src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=900&q=85" alt="Motocicleta de estilo clásico"><div><h3>Naked / urbana</h3><p>Versátil para los desplazamientos diarios.</p></div></article>
+<article class="photo-card"><img loading="lazy" src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=900&q=85" alt="Motocicleta para viajar"><div><h3>Touring</h3><p>Preparada para recorrer largas distancias.</p></div></article>
+</div>
+</section>
+<section class="section"><h2>09 · Video</h2><p>Video educativo sobre las motocicletas:</p><a href="https://www.youtube.com/results?search_query=historia+de+las+motocicletas" target="_blank" rel="noopener">Ver videos sobre la historia de las motos en YouTube ↗</a><p class="note">Para insertar un video propio, agrega el archivo video.mp4 a esta carpeta y crea un reproductor con su nombre correcto.</p></section>
+<section class="section" id="audio"><h2>10 · Música para acompañar el recorrido</h2>
+<p>Escucha esta melodía instrumental original mientras recorres el mundo de las motocicletas.</p>
+<div class="photo-card" style="padding:18px">
+  <p style="margin-top:0;color:var(--cyan);font-weight:bold">Pista instrumental · Estilo electrónico</p>
+  <audio controls loop preload="metadata" style="width:100%">
+    <source src="musica_motos.wav" type="audio/wav">
+    Tu navegador no puede reproducir este audio.
+  </audio>
+  <p style="font-size:.9rem;color:var(--muted)">Pulsa reproducir para escuchar. Puedes pausar o cambiar el volumen desde el reproductor.</p>
+</div></section>
+<section class="section"><h2>11 · Datos curiosos</h2><ul><li>Las primeras motocicletas tenían motores de vapor o combustión.</li><li>Existen motocicletas eléctricas que no necesitan gasolina.</li><li>Las motos deportivas se utilizan en competencias profesionales.</li></ul></section>
+<section class="section"><h2>12 · Tabla comparativa</h2><div style="overflow-x:auto"><table><tr><th>Tipo de moto</th><th>Uso principal</th><th>Característica</th></tr><tr><td>Deportiva</td><td>Competencias y carretera</td><td>Diseño aerodinámico</td></tr><tr><td>Naked</td><td>Ciudad</td><td>Diseño descubierto</td></tr><tr><td>Touring</td><td>Viajes largos</td><td>Comodidad</td></tr><tr><td>Scooter</td><td>Ciudad</td><td>Practicidad</td></tr></table></div></section>
+<section class="section"><h2>13 · Para aprender más</h2><p>Consulta estas páginas oficiales:</p><div class="link-list"><a href="https://www.yamaha-motor.eu/" target="_blank" rel="noopener">Yamaha</a><a href="https://www.honda.com/" target="_blank" rel="noopener">Honda</a><a href="https://www.bmw-motorrad.com/" target="_blank" rel="noopener">BMW Motorrad</a><a href="https://www.ducati.com/" target="_blank" rel="noopener">Ducati</a></div></section>
+<section class="section" id="conclusion"><h2>14 · Conclusión</h2><p>Con este proyecto aprendí sobre la historia de las motocicletas, sus diferentes tipos y su funcionamiento. También comprendí que son vehículos importantes para el transporte, el trabajo y el deporte. Las motos han evolucionado mucho gracias a la tecnología.</p></section>
+</main>
+<footer><p>Proyecto final de HTML y CSS</p><p>Realizado por Samuel Amaya</p></footer>
+</body>
+</html>
